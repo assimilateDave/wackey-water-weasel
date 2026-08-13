@@ -54,6 +54,7 @@ The `.nojekyll` file is already included so GitHub Pages serves the site as-is w
 
 ## Notes
 
-- The domain `assimilationtech.com` was inaccessible from the build environment. Content and branding are reconstructed from the company name and industry context; any specific copy, phone numbers, or addresses marked with placeholder values (e.g. `(555) 555-0100`) should be updated with the real details.
+- All placeholder contact details (phone numbers, email addresses) have been removed. Update these with real, verified information.
+- All invented statistics, founding-year claims, fabricated testimonials, and invented team-member bios have been removed. These were generated without verified source material and do not reflect the actual business. Replace with accurate information as required.
 - No external dependencies — all styles and scripts are self-contained.
 - Responsive design supports mobile, tablet, and desktop viewports.
