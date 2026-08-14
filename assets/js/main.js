@@ -1,4 +1,4 @@
-/* Assimilation Tech - main.js */
+/* Assimilation Technology - main.js */
 
 (function () {
   'use strict';
@@ -46,7 +46,7 @@
     }
   });
 
-  /* --- Contact form (client-side only; no real submission) --- */
+  /* --- Contact form: validate only. GitHub Pages cannot send mail. --- */
   const form    = document.getElementById('contact-form');
   const success = document.getElementById('form-success');
 
