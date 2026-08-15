@@ -20,9 +20,7 @@ HL7, FHIR, and HIE/HIN language reflects the principal’s published professiona
 | `index.html` | Home |
 | `services.html` | Data exchange, integration/automation, HL7/FHIR |
 | `about.html` | Company facts and leadership from public records |
-| `contact.html` | Same fields as the live site (name, last name, email, message) |
-
-The contact form on GitHub Pages cannot send email. Until a form backend is added, use the live Hostinger form.
+| `contact.html` | Company info and `info@assimilationtech.com` |
 
 ## Preview
 

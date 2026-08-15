@@ -888,10 +888,7 @@ img { max-width: 100%; height: auto; display: block; }
    CONTACT PAGE
    =========================== */
 .contact-layout {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 4rem;
-  align-items: flex-start;
+  max-width: 640px;
 }
 
 .contact-info h2 {
