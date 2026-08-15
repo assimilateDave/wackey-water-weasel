@@ -417,10 +417,7 @@ img { max-width: 100%; height: auto; display: block; }
    ABOUT SNIPPET (home)
    =========================== */
 .about-snippet {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
+  max-width: 42rem;
 }
 
 .about-snippet__title {
@@ -455,41 +452,6 @@ img { max-width: 100%; height: auto; display: block; }
   left: 0;
   color: var(--color-accent);
   font-weight: 700;
-}
-
-.about-snippet__visual {
-  background: linear-gradient(135deg, var(--color-primary), #0a2540);
-  border-radius: 12px;
-  padding: 2.5rem;
-  color: var(--color-white);
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.about-visual-item {
-  display: flex;
-  align-items: flex-start;
-  gap: .9rem;
-  background: rgba(255,255,255,.07);
-  border-radius: 8px;
-  padding: 1rem;
-}
-
-.about-visual-item__icon {
-  font-size: 1.4rem;
-  flex-shrink: 0;
-}
-
-.about-visual-item__title {
-  font-weight: 700;
-  font-size: .97rem;
-}
-
-.about-visual-item__desc {
-  font-size: .85rem;
-  opacity: .75;
-  margin-top: .15rem;
 }
 
 /* ===========================
@@ -1100,9 +1062,6 @@ img { max-width: 100%; height: auto; display: block; }
 
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .testimonials-grid { grid-template-columns: 1fr 1fr; }
-
-  .about-snippet { grid-template-columns: 1fr; gap: 2rem; }
-  .about-snippet__visual { order: -1; }
 
   .mission-grid { grid-template-columns: 1fr; }
   .team-grid { grid-template-columns: repeat(2, 1fr); }
