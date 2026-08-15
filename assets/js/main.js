@@ -1,4 +1,4 @@
-/* Assimilation Technology - main.js */
+/* Assimilation Healthcare Technology - main.js */
 
 (function () {
   'use strict';
